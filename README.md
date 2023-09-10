@@ -8,4 +8,4 @@ The Excitation Coefficient is obtained from a fitting function in the [SourceFac
 
 ## Excitation and Source Factors
 
-The excitation and source factors are obtained within the [MathematicaNB](MathematicaNB), specifically the [ExcitationFactors notebook](MathematicaNB/ExcitationFactors.nb) which utilizes the KerrMST packages, which is a solver for Leavers equations and uses the Mano-Suzuki-Takasuki method to obtain the Excitation Factors. The Source Factors are obtained by dividing the Excitation Coefficients by the Excitation Factors.
+The excitation and source factors are obtained within the [MathematicaNB](MathematicaNB), specifically the [ExcitationFactors notebook](MathematicaNB/ExcitationFactors.nb) which utilizes the KerrMST packages, which is a solver for the Teukolsky equations and uses the Mano-Suzuki-Takasuki method to obtain the Excitation Factors. The Source Factors are obtained by dividing the Excitation Coefficients by the Excitation Factors.
