@@ -5,7 +5,7 @@ My research on extracting the excitation and source factors of binary black hole
 ## Excitation Coefficient
 
 The Excitation Coefficient is obtained from a fitting function in the [SourceFactors notebook](SourceFactors.ipynb) up to the seventh overtone using the quasinormal modes. The values are saved as a .csv file.
-The goal of this code is to import SXS data, limiting to spin $\Chi = 0.69 \pm 0.05$ or close to it, then fit the $l=2, m=2$ waveform to a damped sinusoid model. After fitting, the coefficients for up to overtone $N=7$ is extracting and stored.
+The goal of this code is to import SXS data, limiting to spin $\chi = 0.69 \pm 0.05$ or close to it, then fit the $l=2, m=2$ waveform to a damped sinusoid model. After fitting, the coefficients for up to overtone $N=7$ is extracting and stored.
 
 ### The Fitting
 
