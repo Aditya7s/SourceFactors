@@ -4,7 +4,7 @@ My research on extracting the excitation and source factors of binary black hole
 
 ## Excitation Coefficient
 
-The Excitation Coefficient is obtained from a fitting function in the [SourceFactors notebook](SourceFactors.ipynb) up to the seventh overtone using the quasinormal modes. The values are saved as a .csv file.
+The Excitation Coefficient is obtained from a fitting function in the [SourceFactors notebook](https://github.com/Aditya7s/SourceFactors/blob/master/SourceFactors.ipynb) up to the seventh overtone using the quasinormal modes. The values are saved as a .csv file.
 The goal of this code is to import SXS data, limiting to spin $\chi = 0.69 \pm 0.05$ or close to it, then fit the $l=2, m=2$ waveform to a damped sinusoid model. After fitting, the coefficients for up to overtone $N=7$ is extracting and stored.
 
 ### The Fitting
@@ -15,4 +15,4 @@ The function takes in the start time $T$ which tells how far after the peak stra
 
 ## Excitation and Source Factors
 
-The excitation and source factors are obtained within the [MathematicaNB](MathematicaNB), specifically the [ExcitationFactors notebook](MathematicaNB/ExcitationFactors.nb) which utilizes the KerrMST packages, which is a solver for the Teukolsky equations and uses the Mano-Suzuki-Takasuki method to obtain the Excitation Factors. The Source Factors are obtained by dividing the Excitation Coefficients by the Excitation Factors.
+The excitation and source factors are obtained within the [MathematicaNB](https://github.com/Aditya7s/SourceFactors/tree/master/MathematicaNB), specifically the [ExcitationFactors notebook](https://github.com/Aditya7s/SourceFactors/blob/master/MathematicaNB/ExcitationFactors.nb) which utilizes the KerrMST packages, which is a solver for the Teukolsky equations and uses the Mano-Suzuki-Takasuki method to obtain the Excitation Factors. The Source Factors are obtained by dividing the Excitation Coefficients by the Excitation Factors.
